@@ -9,7 +9,8 @@
     "build": "webpack --mode production",
     "coverage": "jest --setupFilesAfterEnv ./src/test/setupTests.js --coverage --watchAll=false",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=b258aafd2606"
   },
   "keywords": [],
   "author": "",
